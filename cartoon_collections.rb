@@ -23,8 +23,6 @@ def find_the_cheese(contains_cheddar)
       contains_cheddar.each do |element|
       if element[0] == "cheddar" || element[0] == "gouda" || element[0] == "gouda"
          new_array.push(yield(element[0]))
-      
-    end
-     new_string = new_array.join(' ')
-    return new_string
+      end
+    
 end
