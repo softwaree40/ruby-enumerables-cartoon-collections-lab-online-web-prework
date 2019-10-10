@@ -19,11 +19,11 @@ def long_planeteer_calls(calls_long)
 end
 
 def find_the_cheese(contains_cheddar)
-       
+       new_array = []
       contains_cheddar.each do |element|
-      if element.first == "cheddar" || element.first == "gouda" || element.first == "gouda"
-        return element.first
+      if element[0] == "cheddar" || element[0] == "gouda" || element[0] == "gouda"
+         new_array.push(yield(element[0]))
       
     end
-     
+    return new_array 
 end
