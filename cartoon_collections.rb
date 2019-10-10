@@ -22,7 +22,7 @@ def find_the_cheese(contains_cheddar)
        
       contains_cheddar.each do |element|
       if element.first == "cheddar" || element.first == "gouda" || element.first == "gouda"
-        return  element.first
+        return element.first
       
     end
      
