@@ -25,5 +25,5 @@ def find_the_cheese(contains_cheddar)
          new_array.push(yield(element[0]))
       
     end
-    return new_array 
+    return new_array .join(' ')
 end
