@@ -22,8 +22,7 @@ def find_the_cheese(contains_cheddar)
       contains_cheddar.each do |element|
       if element[0] == "cheddar" || element[0] == "gouda" || element[0] == "gouda"
         return element[0]
-      else
-        return nil
+      
       end
     end
     
