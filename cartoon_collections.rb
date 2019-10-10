@@ -21,4 +21,5 @@ end
 def find_the_cheese(contains_cheddar)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find { |a| cheese_types.include?(a) }
 end
