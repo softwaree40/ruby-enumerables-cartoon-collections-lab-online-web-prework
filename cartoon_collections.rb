@@ -24,5 +24,5 @@ def find_the_cheese(contains_cheddar)
       if element[0] == "cheddar" || element[0] == "gouda" || element[0] == "gouda"
          new_array.push(yield(element[0]))
       end
-    
+    end
 end
